@@ -10,14 +10,14 @@ body::before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: blur(5px); /* Adjust the blur value accordingly */
+    filter: blur(15px); /* Adjust the blur value accordingly */
     z-index: -1;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    max-width: 960px;
+    font-size: 16px;
+    max-width: 970px;
     margin: auto;
 }
 h1 {
@@ -73,7 +73,7 @@ h1, h2, h3 {
     border-right: 1px solid lightgray;
 }
 html { 
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
     background: url(bgm.jpg) no-repeat center center fixed; 
     
     -webkit-background-size: cover;
