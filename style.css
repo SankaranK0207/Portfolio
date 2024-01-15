@@ -10,7 +10,7 @@ body::before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: blur(30px); /* Adjust the blur value accordingly */
+    filter: blur(10px); /* Adjust the blur value accordingly */
     z-index: -1;
 }
 
