@@ -57,9 +57,12 @@ h1, h2, h3 {
     border-right: 1px solid lightgray;
 }
 html { 
+    backdrop-filter: blur(30px);
     background: url(bgimg.jpeg) no-repeat center center fixed; 
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
   }
